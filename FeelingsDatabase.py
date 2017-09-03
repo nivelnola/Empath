@@ -35,7 +35,7 @@ disgusted = []
 surprised = ["confused", "doubtful", "uncertain",
 "indecisive", "perplexed", "embarrassed", "hesitant", "shy",
 "stupefied", "disillusioned", "unbelieving", "skeptical", "distrustful",
-"misgiving", "lost", "unsure", "uneasy", , "tense"]
+"misgiving", "lost", "unsure", "uneasy", "tense"]
 
 neutral = ["indifferent", "insensitive", "dull", "nonchalant",
 "neutral", "reserved", "weary", "bored", "preoccupied", "cold",
@@ -49,7 +49,7 @@ neutral = ["indifferent", "insensitive", "dull", "nonchalant",
 "six", "seven", "eight", "nine", "ten", "go", "to", "and", "every",
 "language", "green"]'''
 
-fear = ["afraid", "hurt", "fearful", "escape", "escaped", "fear",
+afraid = ["afraid", "hurt", "fearful", "escape", "escaped", "fear",
 "crushed", "terrified", "tormented", "suspicious", "deprived",
 "anxious", "pained", "alarmed", "tortured", "panic", "dejected",
 "nervous", "rejected", "scared", "injured", "worried", "offended",
