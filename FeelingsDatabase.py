@@ -13,9 +13,10 @@ happy = ["open", "happy", "alive", "good", "understandable", "great",
 "bright", "sunny", "blessed","merry", "reassured", "elated", "jubilant",
 "positive", "excited", "confident", "eager", "enthusiastic", "hopeful",
 "keen", "earnest", "intent", "anxious", "challenged", "inspired",
-"optimistic", "determined", "re-enforced", "won", "love", "loving", "considerate", "affectionate", "sensitive", "tender", "devoted",
+"optimistic", "determined", "re-enforced", "won", "love", "loving",
+"considerate", "affectionate", "sensitive", "tender", "devoted",
 "attracted", "passionate", "admiration", "warm", "touched", "sympathy",
-"close", "loved", "comforted"]
+"close", "loved", "comforted", "joyful", "proud", "accepted", "intimate"]
 
 sad = ["sad", "tearful", "sorrowful", "pained", "grief", "anguish", "desolate", "desperate",
 "pessimistic", "unhappy", "lonely", "grieved", "mournful", "dismayed",
@@ -30,17 +31,17 @@ angry = ["angry", "irritated", "enraged", "hostile", "insulting", "sore",
 "infuriated", "cross", "worked up", "boiling", "fuming", "indignant",
 "away"]
 
-disgusted = [] 
+disgusted = ["uneasy"] 
 
 surprised = ["confused", "doubtful", "uncertain",
-"indecisive", "perplexed", "embarrassed", "hesitant", "shy",
-"stupefied", "disillusioned", "unbelieving", "skeptical", "distrustful",
-"misgiving", "lost", "unsure", "uneasy", , "tense"]
+"indecisive", "perplexed", "stupefied", "disillusioned", "unbelieving",
+"skeptical", "startled", "amazed", "shocked","dismayed", "astonished",
+"awe", "eager", "energetic"]
 
 neutral = ["indifferent", "insensitive", "dull", "nonchalant",
 "neutral", "reserved", "weary", "bored", "preoccupied", "cold",
 "disinterested", "lifeless", "maybe", "process", "different",
-"adapted", "adapt", "adapting"]
+"adapted", "adapt", "adapting", "powerful"]
 
 '''others = ["I", "you", "we", "he", "she", "they", "all", "the", "can", "should",
 "would", "can't", "cannot", "shouldn't", "should not", "my",
@@ -49,8 +50,8 @@ neutral = ["indifferent", "insensitive", "dull", "nonchalant",
 "six", "seven", "eight", "nine", "ten", "go", "to", "and", "every",
 "language", "green"]'''
 
-fear = ["afraid", "hurt", "fearful", "escape", "escaped", "fear",
-"crushed", "terrified", "tormented", "suspicious", "deprived",
+afraid = ["afraid", "hurt", "fearful", "escape", "escaped", "fear",
+"crushed", "distrustful", "terrified", "tormented", "suspicious", "deprived",
 "anxious", "pained", "alarmed", "tortured", "panic", "dejected",
 "nervous", "rejected", "scared", "injured", "worried", "offended",
 "frightened", "afflicted",  "timid", "shaky", "victimized",
