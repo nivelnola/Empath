@@ -1,11 +1,3 @@
-# Import Emotions Database
-import FeelingsDatabase
-
-# Open Test File
-from tkinter.filedialog import askopenfilename
-filename = askopenfilename()
-file = open(filename, "r") 
-
 # Count All Words in File
 def allWords(file):
     countall = 0
