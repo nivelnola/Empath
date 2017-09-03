@@ -20,8 +20,7 @@ sad = ["sad", "tearful", "sorrowful", "pained", "grief", "anguish", "desolate", 
 "depressed", "lousy", "disappointed", "discouraged", "ashamed",
 "powerless", "diminished", "guilty", "dissatisfied", "miserable",
 "detestable", "repugnnt", "despicable", "disgusting", "abominable",
-"complicated", 
-"terrible", "in despair", "sulky", "bad", "a sense of loss", "no"]
+"complicated", "terrible", "in despair", "sulky", "bad", "a sense of loss", "no"]
 mad = ["angry", "irritated", "enraged", "hostile", "insulting", "sore",
 "annoyed", "upset", "hateful", "unpleasant", "offensive", "bitter",
 "aggressive", "resentful", "inflamed", "provoked", "incensed",
@@ -58,4 +57,3 @@ love = ["love", "loving", "considerate", "affectionate", "sensitive", "tender", 
 "close", "loved", "comforted", "drawn" + "toward"]
 brave = ["strong", "impulsive", "free", "sure", "certain", "rebellious", "unique",
 "dynamic", "tenacious", "hardy", "secure", "bold", "brave", "daring"]
-
