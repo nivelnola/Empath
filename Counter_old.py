@@ -11,14 +11,14 @@ def allWords(file):
     return countall
 
 # General Emotion Counter
-def emotion(file, emotion):
+def emotion(file, emotionList):
     file = open(testFilename, "r") 
     count = 0
     for line in file:
         words = line.lower().split()
         for word in words :
             #print("Word: ", word)
-            if word in emotion:
+            if word in emotionList:
                 #print("Word found")
                 count += 1
     return count

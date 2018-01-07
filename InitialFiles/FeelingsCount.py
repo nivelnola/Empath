@@ -1,5 +1,3 @@
-###Code by Maxim Minchuk|Assisted by Alon Levin, NJIT ACM###
-
 from tkinter.filedialog import askopenfilename
 filename = askopenfilename()
 file = open(filename, "r") 

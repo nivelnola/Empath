@@ -1,5 +1,3 @@
-###Code by Maxim Minchuk | Assisted by Alon Levin, NJIT ACM###
-
 from FeelingsCount import (count_happy, count_mad, count_interested,
 count_confusion, count_brave, count_sad, count_others, count_all)
 

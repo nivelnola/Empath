@@ -1,5 +1,3 @@
-###Code by Maxim Minchuk|Assisted by Alon Levin, NJIT ACM###
-
 happy = ["open", "happy", "alive", "good", "understandable", "great",
 "playful", "calm", "confident", "gay", "courageous", "peaceful",
 "reliable", "joyous", "energetic", "at ease", "easy", "lucky",
