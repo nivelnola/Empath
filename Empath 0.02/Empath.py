@@ -10,7 +10,7 @@ import Counter
 from tkinter.filedialog import askopenfilename
 testFilename = askopenfilename()
 Counter.allWords(testFilename)
-Counter.emotion(testFilename, "happy", dataBase)
+Counter.emotion(testFilename, dataBase, "happy")
 Counter.nonEmotion(testFilename, dataBase)
 testFilename.close()
 
