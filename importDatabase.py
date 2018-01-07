@@ -7,7 +7,7 @@ with open('Empath_Database.csv', mode='r') as infile:
 dictDatabase.pop(' Word')
 infile.close()
 
-print(dictDatabase)
+#print(dictDatabase)
 
-def get(dataBase):
-    return dataBase
+def get():
+    return dictDatabase
