@@ -7,3 +7,4 @@ dataBase = importDatabase.get()
 ### Open Test File
 from tkinter.filedialog import askopenfilename
 testFilename = askopenfilename()
+testFilenamer.close()
