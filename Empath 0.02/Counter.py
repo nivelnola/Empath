@@ -6,7 +6,7 @@ def allWords(file):
         countall += len(words) 
     return countall
 
-# General Emotion Counter
+# General Emotion Counter:count number of words in each category
 def emotion(file, emoWord, db):
     count = 0
     for line in file:
