@@ -1,3 +1,4 @@
+import importDatabase
 # Count All Words in File
 def allWords(file):
     countall = 0
@@ -7,7 +8,7 @@ def allWords(file):
     return countall
 
 # General Emotion Counter:count number of words in each category
-def emotion(file, emoWord, db):
+def emotion(file, db, emoWord):
     count = 0
     for line in file:
         words = line.lower().split()

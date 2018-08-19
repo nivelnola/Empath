@@ -12,7 +12,6 @@ testFilename = askopenfilename()
 Counter.allWords(testFilename)
 Counter.emotion(testFilename, dataBase, "happy")
 Counter.nonEmotion(testFilename, dataBase)
-testFilename.close()
 
 
 
