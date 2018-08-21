@@ -9,9 +9,14 @@ import Counter
 ### Open Test File
 from tkinter.filedialog import askopenfilename
 testFilename = askopenfilename()
-Counter.allWords(testFilename)
-Counter.emotion(testFilename, dataBase, "happy")
-Counter.nonEmotion(testFilename, dataBase)
-
+testFile = open(testFilename, "r")
+print (Counter.allWords(testFile))
+print (Counter.emotion(testFile, dataBase, "anger"))
+print (Counter.emotion(testFile, dataBase, "happy"))
+print (Counter.emotion(testFile, dataBase, "sad"))
+print (Counter.emotion(testFile, dataBase, "disgust"))
+print (Counter.emotion(testFile, dataBase, "fear"))
+print (Counter.emotion(testFile, dataBase, "surprise"))
+print (Counter.nonEmotion(testFile, dataBase))
 
 

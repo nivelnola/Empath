@@ -11,8 +11,8 @@ def allWords(file):
 def emotion(file, db, emoWord):
     count = 0
     for line in file:
-        words = line.lower().split()
-        for word in words :
+        words = line.split()
+        for word in words:
             #print("Word: ", word)
             if word in db :
                 #print("Word found")
