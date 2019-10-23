@@ -39,7 +39,7 @@ print ((count_happy(file)/allword)*100)
 
 def count_sad(file):
     from FeelingsDatabase import sad
-    file = open(filename, "r") 
+    file = open(filename, "r")
     countsad = 0
     for line in file:
         words = line.lower().split()
