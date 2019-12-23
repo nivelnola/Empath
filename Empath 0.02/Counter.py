@@ -69,7 +69,7 @@ def emotion(file, db, emoWord):
             if word in db :
                 #print("Word found")
                 if db.get(word) == emoWord:
-                    print("Word: ", word)
+                    #print("Word: ", word)
                     count += 1
     return count
 
